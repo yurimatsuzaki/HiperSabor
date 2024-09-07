@@ -1,0 +1,57 @@
+@media screen and  (min-width: 800px){
+   .educativo{
+   min-height: 300px;
+   position: relative;
+   }
+
+   #edu1 > img{
+    position: absolute;
+    left: 62%;
+    top: 10%;
+   }
+
+   #edu1 > article{
+      width: 450px;
+      padding: 10px 0px 10px 10px;
+      border-radius: 10px;
+      background-color: white;
+      font-size: 1.5em;
+      position: absolute;
+      left: 3%;
+      top: 22%;
+   }
+
+   #edu2 > img{
+      position: absolute;
+      left: 62%;
+      top: 10%;
+     }
+  
+     #edu2 > article{
+        width: 450px;
+        padding: 10px 0px 10px 10px;
+        border-radius: 10px;
+        background-color: white;
+        font-size: 1.5em;
+        position: absolute;
+        left: 3%;
+        top: 26%;
+     }
+
+     #edu3 > img{
+      position: absolute;
+      left: 62%;
+      top: 10%;
+     }
+  
+     #edu3 > article{
+        width: 450px;
+        padding: 10px 0px 10px 10px;
+        border-radius: 10px;
+        background-color: white;
+        font-size: 1.5em;
+        position: absolute;
+        left: 3%;
+        top: 20%;
+     }
+}

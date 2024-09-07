@@ -7,8 +7,189 @@
     --cor02: #F27405;
     --cor03: #261F1B;
     --cor04: #0D0D0D;
-
-    --font01: font-family: "Outfit", sans-serif;
-    
 }
 
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Outfit", sans-serif;
+}
+
+header{
+    background-color: var(--cor00);
+    text-align: center;
+}
+
+nav{
+    height: 40px;
+    background-color: var(--cor03);
+    padding: 10px;
+}
+
+nav > a{
+    color: white;
+    font-size: 1.7em;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+main{
+    max-width: 800px;
+    margin: auto;
+    background-color: #ffedc7;
+}
+
+#ImgPrincipal{
+    text-align: center;
+}
+
+#ImgPrincipal > picture > img{
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#container{
+    margin: 0px 15px 0px 15px;
+}
+
+#BemVindo{
+    max-width: 700px;
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#BemVindo > h2{
+    text-align: center;
+    font-size: 2.5em;
+}
+
+#BemVindo > p{
+    font-size: 1.5em;
+    padding-top: 20px;
+}
+
+#Titulo1{
+    height: 400px;
+    margin: 30px auto 0px auto;
+    text-align: center;
+    background-color: black;
+    background-image: url("../imagens/ilustrativas/comida-1000.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.719);
+    position: relative;
+}
+
+#Titulo1 > h1{
+    font-size: 3.5em;
+    width: 90%;
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.821);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.educativo{
+    min-height: 500px;
+    padding: 20px;
+}
+
+#edu1{
+    background-color: #0077ff7d;
+    text-align: center;
+ }
+
+ #edu1 > article{
+    max-width: 420px;
+    margin: 0px auto 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 1.5em;
+    text-align: left;
+ }
+
+ #edu2{
+    background-color: #2eb6007d;
+    text-align: center;
+ }
+
+ #edu2 > article{
+    max-width: 420px;
+    margin: 0px auto 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 1.5em;
+    text-align: left;
+ }
+
+ #edu3{
+    background-color: #b600007d;
+    text-align: center;
+ }
+
+ #edu3 > article{
+    max-width: 420px;
+    margin: 0px auto 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 1.5em;
+    text-align: left;
+ }
+
+ #Titulo2{
+    height: 400px;
+    margin: 0px auto 20px auto;
+    text-align: center;
+    background-color: black;
+    background-image: url("../imagens/ilustrativas/vegetais-800.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.756);
+    position: relative;
+}
+
+#Titulo2 > h1{
+    font-size: 3.5em;
+    width: 90%;
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.821);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+ #Receitas{
+    padding: 20px;
+    margin: auto;
+    display: inline-block;
+ }
+    
+.receitas{
+    height: 350px;
+    width: 200px;
+    padding: 5px;
+    margin: 10px;
+    background-color: #F2B807;
+    border: solid 2px black;
+    border-radius: 5px;
+ }
+
+ .receitas > img{
+    border-radius: 5px;
+ }
