@@ -30,10 +30,107 @@ nav > a{
     font-size: 1.7em;
     text-decoration: none;
     margin-right: 30px;
+    position: relative;
 }
+
+nav > a::after{
+    content: " ";
+    width: 0%;
+    height: 3px;
+    background-color: #F2A007;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 200ms ease-in-out;
+}
+
+nav > a:hover::after{
+    width: 106%;
+}
+
 
 main{
     max-width: 800px;
     margin: auto;
     background-color: #ffedc7;
 }
+
+main > h1{
+    font-size: 3.5em;
+    padding: 20px 0px 10px 25px;
+}
+
+.ReceitaUnica{
+    padding: 15px;
+}
+
+.container{
+    width: 95%;
+    padding: 8px;
+    text-align: center;
+    margin: 0px auto 25px;
+    background-color: #edb200;
+    border-radius: 10px;
+}
+
+.container > img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.links{
+    max-width: 95%;
+    margin: auto;
+    margin-top: 15px;
+    font-size: 1.2em;
+}
+
+.containerVideo{
+    width: 95%;
+    padding: 10px 5px 51% 5px;
+    margin: 20px auto 30px;
+    border-radius: 10px;
+    background-color: #edb200;
+    position: relative;
+}
+
+.containerVideo > iframe{
+    width: 94%;
+    height: 94%;
+    border-radius: 10px;
+    position: absolute;
+    top: 3%;
+    left: 3%;
+}
+
+.instrucoes{
+    margin: auto;
+    padding: 15px 20px;
+    background-color: #ffdb97;
+    border-radius: 10px;
+}
+
+.instrucoes > h1{
+    font-size:2.5em;
+    margin-bottom: 15px;
+}
+
+#preparo{
+    margin-bottom: 30px;
+    font-size: 1.1em;
+}
+
+#preparo > ul > li{
+    margin-left: 20px;
+}
+
+#preparo > ol > li{
+    margin-left: 20px;
+}
+
+footer{
+    padding: 20px;
+    text-align: center;
+    background-color: #261F1B;
+    color: white;
+ }
